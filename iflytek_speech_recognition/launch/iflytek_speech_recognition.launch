@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="iflytek_speech_recognition" type="iflytek_speech_recognition_node" name="speech_recognizer" respawn="false">
+    <!--param name="asr_res_path" value="/opt/ros/kinetic/share/iflytek_speech_recognition/config/msc/res/asr/common.jet"/>
+    <param name="grm_build_path" value="/opt/ros/kinetic/share/iflytek_speech_recognition/config/msc/res/asr/GrmBuilld"/>
+    <param name="grm_file" value="/opt/ros/kinetic/share/iflytek_speech_recognition/config/call.bnf"/-->
+  </node>
+</launch>
